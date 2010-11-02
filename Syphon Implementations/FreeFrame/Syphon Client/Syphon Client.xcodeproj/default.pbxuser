@@ -1,0 +1,39 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 = {
+		activeBuildConfigurationName = Release;
+		activeArchitecturePreference = x86_64;
+		activeTarget = 8D5B49AC048680CD000E48DA;
+		codeSenseManager = BDC68510114C6EC0000FB400;
+		sourceControlManager = BDC6850F114C6EC0000FB400;
+		userBuildSettings = {
+		};
+	};
+	658A2DCF067AB96600421F51 = {
+		fallbackIsa = XCSourceControlManager;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	8D5B49AC048680CD000E48DA = {
+		activeExec = 0;
+	};
+	BDC6850F114C6EC0000FB400 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BDC68510114C6EC0000FB400 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BDDBC199114545B2009881FB /* Build & Copy */ = {
+		activeExec = 0;
+	};
+}

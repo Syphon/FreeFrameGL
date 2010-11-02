@@ -1,0 +1,82 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18080\viewh15040\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs36 \cf0 Syphon for FreeFrame, Public Beta 1.
+\fs24 \cf2 \
+\cf0 \
+
+\b About
+\b0 \
+\
+Syphon is a system for sending video between applications. You can use it to send high resolution and high frame rate video, 3D textures and synthesized content between your FreeFrame host and other applications.\
+\
+Syphon for FreeFrame includes two plugins:\
+\
+
+\b Syphon Client
+\b0  - Brings video from other applications into your Freeframe  host.\
+\
+
+\b Syphon Server
+\b0  - Publishes video from your host app, so that external applications which support Syphon can use them.\
+
+\b \
+
+\b0 \cf2 WARNING: Resolume Avenue loads these plugins in a way which causes Resolume to crash if you have more than one server or client plugin loaded. This is a problem for any FreeFrame plugin which loads Objective-C code, and not just Syphon. We caution against using them in Resolume until an update addresses this problem.\
+
+\b \cf0 \
+Licensing
+\b0 \
+\
+Syphon for FreeFrame is published under a Simplified BSD license. See the included License.txt file.\
+\
+
+\b Requirements
+\b0 \
+\
+Mac OS X 10.6.4 or greater\
+Any application which supports FreeFrame 1.5 (FFGL) or later (not Freeframe 1.0).\
+ \
+
+\b Installation
+\b0 \
+\
+Install "Syphon Client.bundle" and "Syphon Server.bundle" in a folder where your host application will see them. \
+\
+For Resolume Avenue 3.x, this would be the "/Applications/Resolume Avenue 3.x/plugins/vfx/" folder. Other applications may use the /Library/Graphics/FreeFrame Plug-Ins/ folder, or other paths. Please consult your applications documentation to be sure.\
+\
+
+\b Instructions
+\b0 \
+\
+Using the 
+\b Syphon Server 
+\b0 plugin - 
+\b Syphon Server
+\b0  is an effect plugin. Video it receives as input will be made available to other applications. It has the following parameters:\
+\
+	- Name: name your server so it is identifiable in other applications\
+	- Monitor: if this is true, video will be drawn in the host app. If it is false, you will stop seeing the output in the host app.\
+\
+Using the 
+\b Syphon Client
+\b0  patch - 
+\b Syphon Client
+\b0  is a source plugin. It receives video from an existing Syphon Server. It has the following parameters:\
+\
+	- Name: the name of the Syphon Server to connect to.\
+	- App Name: the name of the application hosting the server you want to connect to.\
+\
+Both of these parameters are optional, but you must provide non-empty input to one of them. For instance if you provide an App Name but no Server Name, then the plugin will connect to the first server it finds in the named app.\
+\
+
+\b Credits
+\b0 \
+\
+Syphon for FreeFrame - Tom Butterworth (bangnoise) and Anton Marini (vade)\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+{\field{\*\fldinst{HYPERLINK "http://syphon.v002.info"}}{\fldrslt \cf0 http://syphon.v002.info }}}

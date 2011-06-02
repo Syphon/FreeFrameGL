@@ -36,7 +36,8 @@
 @implementation FFContext
 - (id)initWithOriginX:(GLuint)originX originY:(GLuint)originY width:(NSUInteger)width height:(NSUInteger)height
 {
-	if (self = [super init])
+    self = [super init];
+	if (self)
 	{
 		_originX = originX;
 		_originY = originY;

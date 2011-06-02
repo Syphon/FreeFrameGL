@@ -85,7 +85,8 @@
 
 - (id)initWithContext:(FFContext *)context
 {
-	if (self = [super initWithContext:context])
+    self = [super initWithContext:context];
+	if (self)
 	{	
 		
 		/* Your init stuff here */

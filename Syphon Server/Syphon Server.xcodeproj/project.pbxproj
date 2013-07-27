@@ -80,23 +80,23 @@
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* Syphon Server_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Syphon Server_Prefix.pch"; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* Syphon Server_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Syphon Server_Prefix.pch"; path = "Syphon Server/Syphon Server_Prefix.pch"; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Syphon Server.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Syphon Server.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD053EF611468E3E00000FB7 /* FFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPlugin.h; sourceTree = "<group>"; };
-		BD053EF711468E3E00000FB7 /* FFPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPlugin.m; sourceTree = "<group>"; };
-		BD45BD0111427BBE0075A77B /* FFContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFContext.h; sourceTree = "<group>"; };
-		BD45BD0211427BBE0075A77B /* FFContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFContext.m; sourceTree = "<group>"; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Syphon Server/Info.plist"; sourceTree = "<group>"; };
+		BD053EF611468E3E00000FB7 /* FFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFPlugin.h; path = "Syphon Server/FFPlugin.h"; sourceTree = "<group>"; };
+		BD053EF711468E3E00000FB7 /* FFPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFPlugin.m; path = "Syphon Server/FFPlugin.m"; sourceTree = "<group>"; };
+		BD45BD0111427BBE0075A77B /* FFContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFContext.h; path = "Syphon Server/FFContext.h"; sourceTree = "<group>"; };
+		BD45BD0211427BBE0075A77B /* FFContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFContext.m; path = "Syphon Server/FFContext.m"; sourceTree = "<group>"; };
 		BD4804AF1239A84000DFB19E /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7F7308114C74AF000D9ABC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		BD8DBDC1114C6550009FBE0A /* FFTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTexture.h; sourceTree = "<group>"; };
-		BD8DBDC3114C6566009FBE0A /* FFTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTexture.m; sourceTree = "<group>"; };
-		BDD00679111AE7D9005D00B6 /* plugMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plugMain.m; sourceTree = "<group>"; };
-		BDD0067C111AE81B005D00B6 /* FreeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeFrame.h; sourceTree = "<group>"; };
-		BDD0067F111AE86F005D00B6 /* Syphon_ServerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Syphon_ServerPlugin.h; sourceTree = "<group>"; };
-		BDD00680111AE86F005D00B6 /* Syphon_ServerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Syphon_ServerPlugin.m; sourceTree = "<group>"; };
-		BDF40DDB1153962800ECBAC6 /* FFTextureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTextureProvider.h; sourceTree = "<group>"; };
-		BDF40DFB1153993F00ECBAC6 /* Exported_Symbols.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = Exported_Symbols.exp; sourceTree = "<group>"; };
+		BD8DBDC1114C6550009FBE0A /* FFTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFTexture.h; path = "Syphon Server/FFTexture.h"; sourceTree = "<group>"; };
+		BD8DBDC3114C6566009FBE0A /* FFTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFTexture.m; path = "Syphon Server/FFTexture.m"; sourceTree = "<group>"; };
+		BDD00679111AE7D9005D00B6 /* plugMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = plugMain.m; path = "Syphon Server/plugMain.m"; sourceTree = "<group>"; };
+		BDD0067C111AE81B005D00B6 /* FreeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeFrame.h; path = "Syphon Server/FreeFrame.h"; sourceTree = "<group>"; };
+		BDD0067F111AE86F005D00B6 /* Syphon_ServerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Syphon_ServerPlugin.h; path = "Syphon Server/Syphon_ServerPlugin.h"; sourceTree = "<group>"; };
+		BDD00680111AE86F005D00B6 /* Syphon_ServerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Syphon_ServerPlugin.m; path = "Syphon Server/Syphon_ServerPlugin.m"; sourceTree = "<group>"; };
+		BDF40DDB1153962800ECBAC6 /* FFTextureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFTextureProvider.h; path = "Syphon Server/FFTextureProvider.h"; sourceTree = "<group>"; };
+		BDF40DFB1153993F00ECBAC6 /* Exported_Symbols.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; name = Exported_Symbols.exp; path = "Syphon Server/Exported_Symbols.exp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +331,7 @@
 				089C167EFE841241C02AAC07 /* English */,
 			);
 			name = InfoPlist.strings;
+			path = "Syphon Server";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,8 +347,8 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Syphon Server_Prefix.pch";
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = "Syphon Server/Syphon Server_Prefix.pch";
+				INFOPLIST_FILE = "Syphon Server/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = "Syphon Server";
 				WRAPPER_EXTENSION = bundle;
@@ -363,8 +364,8 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(CONFIGURATION_BUILD_DIR)\"";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Syphon Server_Prefix.pch";
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = "Syphon Server/Syphon Server_Prefix.pch";
+				INFOPLIST_FILE = "Syphon Server/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PRODUCT_NAME = "Syphon Server";
 				WRAPPER_EXTENSION = bundle;

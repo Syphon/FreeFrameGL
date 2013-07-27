@@ -96,8 +96,8 @@
 		BDD0067C111AE81B005D00B6 /* FreeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeFrame.h; sourceTree = "<group>"; };
 		BDD0067F111AE86F005D00B6 /* Syphon_ClientPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Syphon_ClientPlugin.h; sourceTree = "<group>"; };
 		BDD00680111AE86F005D00B6 /* Syphon_ClientPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Syphon_ClientPlugin.m; sourceTree = "<group>"; };
-		BDE46C1411F89A550081E3CB /* SyphonNameboundClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyphonNameboundClient.h; path = ../../Shared/SyphonNameboundClient.h; sourceTree = SOURCE_ROOT; };
-		BDE46C1511F89A550081E3CB /* SyphonNameboundClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyphonNameboundClient.m; path = ../../Shared/SyphonNameboundClient.m; sourceTree = SOURCE_ROOT; };
+		BDE46C1411F89A550081E3CB /* SyphonNameboundClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyphonNameboundClient.h; path = ../Shared/SyphonNameboundClient.h; sourceTree = SOURCE_ROOT; };
+		BDE46C1511F89A550081E3CB /* SyphonNameboundClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyphonNameboundClient.m; path = ../Shared/SyphonNameboundClient.m; sourceTree = SOURCE_ROOT; };
 		BDF40DDB1153962800ECBAC6 /* FFTextureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTextureProvider.h; sourceTree = "<group>"; };
 		BDF40DFB1153993F00ECBAC6 /* Exported_Symbols.exp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.exports; path = Exported_Symbols.exp; sourceTree = "<group>"; };
 /* End PBXFileReference section */

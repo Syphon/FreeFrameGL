@@ -238,7 +238,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Syphon Client" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(CONFIGURATION_BUILD_DIR)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -365,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EXPORTED_SYMBOLS_FILE = Exported_Symbols.exp;
 				FRAMEWORK_SEARCH_PATHS = "\"$(CONFIGURATION_BUILD_DIR)\"";
